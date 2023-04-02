@@ -6,7 +6,7 @@
 	E-mail: jack@raats.oorg
 
 	version:	08-05-1993	DeSmet C / C68 v3.05
-	update: 	28-10-2019	FreeBSD 12.1-RC2
+	update: 	02-04-2023	FreeBSD 13.2-RC6
 */
 
 #include <stdio.h>
@@ -37,7 +37,7 @@ int 	argc;
 char	*argv[];
 {
     printf ("\nZXAS convert ZXAS2 assembler output to ASCII");
-    printf ("\nCopyright Jack Raats 1993-2019, Steenbergen, Holland");
+    printf ("\nCopyright Jack Raats 1993-2023, Steenbergen, Holland");
     printf ("\nEmail:    jack@raats.org\n");
 
     if ( argc != 3 )

@@ -6,7 +6,7 @@
 	Email: jack@raats.org
 
 	version: 30 december 1992	DeSmet C / C68 v3.05
-	update:  29 oktober  2019	FreeBSD 12.1-RC2
+	update:  02 april 2023  	FreeBSD 13.2-RC6
 */
 
 #include <stdio.h>
@@ -112,8 +112,8 @@ int main ( argc, argv )
 int argc;
 char *argv[];
 {
-    printf ( "\nzx81 list utility           V29102019");
-    printf ( "\n(C) Jack Raats, Steenbergen 1992-2019");
+    printf ( "\nzx81 list utility           V02042023");
+    printf ( "\n(C) Jack Raats, Steenbergen 1992-2023");
     printf ( "\nE-mail:                jack@raats.org");
 
     if ( argc != 3 )
@@ -135,8 +135,8 @@ char *argv[];
         fout();
     }
 
-    fprintf ( fo, "\nzx81 list utility           V29102019");
-    fprintf ( fo, "\n(C) Jack Raats, Steenbergen 1992-2019");
+    fprintf ( fo, "\nzx81 list utility           V02042023");
+    fprintf ( fo, "\n(C) Jack Raats, Steenbergen 1992-2023");
     fprintf ( fo, "\nE-mail:                jack@raats.org");
 
     fread ( buffer, 1, (16509-16393), fi );
